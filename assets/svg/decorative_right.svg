@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 340" width="100%" height="100%">
+  <!-- Top: Developer with AI Robot -->
+  <g id="aiRobotAndDev" transform="translate(5, 10)">
+    <!-- Tech Person -->
+    <g transform="translate(5, 10) scale(0.8)">
+      <circle cx="8" cy="4" r="4.5" fill="#1E293B" />
+      <polygon points="2,10 14,10 16,32 0,32" fill="#3B82F6" />
+      <line x1="12" y1="14" x2="20" y2="18" stroke="#3B82F6" stroke-width="3" stroke-linecap="round" />
+      <rect x="19" y="15" width="5" height="7" rx="1" fill="#00C4D6" />
+      <line x1="4" y1="32" x2="4" y2="48" stroke="#1E293B" stroke-width="3" />
+      <line x1="12" y1="32" x2="12" y2="48" stroke="#1E293B" stroke-width="3" />
+    </g>
+
+    <!-- Futuristic AI Robot -->
+    <g transform="translate(32, 5) scale(0.75)">
+      <!-- Robot Head Dome -->
+      <ellipse cx="25" cy="16" rx="14" ry="12" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5" />
+      <!-- Glowing Blue Visor -->
+      <rect x="15" y="12" width="20" height="6" rx="3" fill="#0284C7" />
+      <circle cx="21" cy="15" r="1.5" fill="#38BDF8" />
+      <circle cx="29" cy="15" r="1.5" fill="#38BDF8" />
+      <!-- Robot Neck -->
+      <rect x="18" y="28" width="14" height="4" rx="2" fill="#94A3B8" />
+      <!-- Robot Torso -->
+      <ellipse cx="25" cy="42" rx="16" ry="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+      <!-- Chest Core -->
+      <circle cx="25" cy="42" r="4" fill="#00C4D6" />
+      <!-- Robot Arms -->
+      <ellipse cx="6" cy="38" rx="4" ry="9" fill="#E2E8F0" />
+      <ellipse cx="44" cy="38" rx="4" ry="9" fill="#E2E8F0" />
+      <!-- Robot Base -->
+      <ellipse cx="25" cy="58" rx="14" ry="6" fill="#94A3B8" />
+      <ellipse cx="25" cy="61" rx="11" ry="3" fill="#38BDF8" opacity="0.8" />
+    </g>
+  </g>
+
+  <!-- Bottom: BEST Red Double Decker Bus -->
+  <g id="mumbaiDoubleDecker" transform="translate(5, 230) scale(0.85)">
+    <!-- Roof -->
+    <polygon points="4,18 24,6 75,22 55,34" fill="#F43F5E" />
+    <!-- Front Face -->
+    <polygon points="4,18 55,34 55,72 4,56" fill="#E11D48" />
+    <!-- Front Windows -->
+    <polygon points="8,22 50,36 50,44 8,30" fill="#E0F2FE" />
+    <polygon points="8,35 50,49 50,57 8,43" fill="#E0F2FE" />
+    <!-- Destination Board -->
+    <polygon points="14,20 44,30 44,33 14,24" fill="#FACC15" />
+    <!-- Headlights -->
+    <circle cx="12" cy="51" r="2.5" fill="#FEF08A" />
+    <circle cx="46" cy="62" r="2.5" fill="#FEF08A" />
+    <!-- Side Face -->
+    <polygon points="55,34 75,22 75,60 55,72" fill="#9F1239" />
+    <!-- Side Windows -->
+    <polygon points="58,35 73,26 73,34 58,43" fill="#BAE6FD" />
+    <polygon points="58,47 73,38 73,46 58,55" fill="#BAE6FD" />
+    <!-- Wheels -->
+    <ellipse cx="20" cy="59" rx="5" ry="6" fill="#1E293B" />
+    <ellipse cx="42" cy="66" rx="5" ry="6" fill="#1E293B" />
+  </g>
+</svg>

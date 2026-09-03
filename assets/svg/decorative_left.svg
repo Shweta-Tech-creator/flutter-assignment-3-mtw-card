@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 200" width="100%" height="100%">
+  <!-- Left Side: Sailboats & Arabian Sea Waves -->
+  <!-- Top Yacht / Sailboat -->
+  <g transform="translate(10, 15) scale(0.75)">
+    <!-- Sail -->
+    <polygon points="18,0 18,36 38,28" fill="#FFFFFF" opacity="0.95" />
+    <polygon points="15,4 15,36 2,31" fill="#FFE4E6" opacity="0.85" />
+    <!-- Mast -->
+    <line x1="16.5" y1="-2" x2="16.5" y2="38" stroke="#FFFFFF" stroke-width="1.2" />
+    <!-- Boat Hull -->
+    <polygon points="0,38 40,32 34,44 4,44" fill="#FFFFFF" />
+    <polygon points="4,44 34,44 31,48 7,48" fill="#E2E8F0" />
+  </g>
+
+  <!-- Middle Boat / Ferry -->
+  <g transform="translate(5, 75) scale(0.7)">
+    <polygon points="4,18 40,10 36,28 0,28" fill="#FFFFFF" />
+    <polygon points="10,9 31,4 29,18 8,18" fill="#FFE4E6" />
+    <!-- Cabin windows -->
+    <rect x="13" y="10" width="3.5" height="3.5" fill="#E11D48" />
+    <rect x="19" y="8.5" width="3.5" height="3.5" fill="#E11D48" />
+    <rect x="25" y="7.5" width="3.5" height="3.5" fill="#E11D48" />
+  </g>
+
+  <!-- Lower Small Sailboat -->
+  <g transform="translate(25, 125) scale(0.6)">
+    <polygon points="16,0 16,30 32,24" fill="#FFFFFF" />
+    <polygon points="13,5 13,30 3,26" fill="#FFE4E6" />
+    <polygon points="2,31 34,26 29,36 5,36" fill="#FFFFFF" />
+  </g>
+
+  <!-- Sea Waves / Ripples in delicate white lines -->
+  <g stroke="#FFFFFF" stroke-width="1.2" fill="none" opacity="0.85" stroke-linecap="round">
+    <path d="M 38,40 Q 48,35 58,40 T 68,40" />
+    <path d="M 32,52 Q 42,47 52,52 T 65,52" />
+    
+    <path d="M 35,92 Q 45,87 55,92 T 68,92" />
+    <path d="M 30,104 Q 40,99 50,104 T 62,104" />
+
+    <path d="M 2,150 Q 15,143 30,150 T 60,150" />
+    <path d="M 12,162 Q 25,155 40,162 T 68,162" />
+    <path d="M 5,174 Q 20,167 35,174 T 55,174" />
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 80" width="100%" height="100%">
+  <!-- Pixel / Blocky TEA.M Logo in Crisp White -->
+  <g fill="#FFFFFF">
+    <!-- Letter T -->
+    <rect x="18" y="10" width="22" height="6" rx="0.5" />
+    <rect x="26" y="16" width="6" height="18" rx="0.5" />
+
+    <!-- Letter E -->
+    <rect x="44" y="10" width="6" height="24" rx="0.5" />
+    <rect x="50" y="10" width="15" height="6" rx="0.5" />
+    <rect x="50" y="19" width="11" height="5.5" rx="0.5" />
+    <rect x="50" y="28" width="15" height="6" rx="0.5" />
+
+    <!-- Letter A -->
+    <polygon points="73,34 79,10 88,10 94,34 88,34 86,27 81,27 79,34" />
+    <polygon points="82.5,22 84.5,22 83.5,16" fill="#E5347F" />
+
+    <!-- Period dot -->
+    <rect x="99" y="27" width="6" height="7" rx="0.5" />
+
+    <!-- Number 1 / Block M -->
+    <rect x="110" y="10" width="7" height="24" rx="0.5" />
+    <polygon points="106,16 111,10 111,16" />
+    <rect x="105" y="30" width="17" height="4" rx="0.5" />
+  </g>
+
+  <!-- Subtitle Line 1: TECH ENTREPRENEURS -->
+  <text x="82" y="47" 
+        text-anchor="middle" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+        font-size="8.5" 
+        font-weight="800" 
+        letter-spacing="0.9" 
+        fill="#FFFFFF">
+    TECH ENTREPRENEURS
+  </text>
+
+  <!-- Subtitle Line 2: ASSOCIATION of MUMBAI -->
+  <text x="82" y="58" 
+        text-anchor="middle" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+        font-size="7.5" 
+        font-weight="700" 
+        letter-spacing="0.5" 
+        fill="#FFFFFF">
+    ASSOCIATION <tspan font-style="italic" font-weight="400" font-family="Georgia, serif">of</tspan> MUMBAI
+  </text>
+</svg>

@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="letterTopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <linearGradient id="letterFrontGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#93C5FD" />
+      <stop offset="100%" stop-color="#60A5FA" />
+    </linearGradient>
+    <linearGradient id="letterSideGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#4338CA" />
+    </linearGradient>
+    <linearGradient id="cyberTowerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#6B21A8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Wireframe Grid -->
+  <g opacity="0.35" stroke="#FFFFFF" stroke-width="0.8" fill="none">
+    <line x1="30" y1="240" x2="430" y2="40" stroke-dasharray="3,3" />
+    <line x1="30" y1="90" x2="430" y2="290" stroke-dasharray="3,3" />
+    <line x1="90" y1="280" x2="450" y2="100" stroke-dasharray="2,2" />
+  </g>
+
+  <!-- Flying Drone (Top Left) -->
+  <g transform="translate(145, 38) scale(0.55)">
+    <line x1="-28" y1="0" x2="28" y2="0" stroke="#FFFFFF" stroke-width="2" />
+    <line x1="0" y1="-18" x2="0" y2="18" stroke="#FFFFFF" stroke-width="2" />
+    <circle cx="-28" cy="0" r="9" fill="none" stroke="#00C4D6" stroke-width="2" />
+    <circle cx="28" cy="0" r="9" fill="none" stroke="#00C4D6" stroke-width="2" />
+    <circle cx="0" cy="-18" r="9" fill="none" stroke="#00C4D6" stroke-width="2" />
+    <circle cx="0" cy="18" r="9" fill="none" stroke="#00C4D6" stroke-width="2" />
+    <circle cx="0" cy="0" r="7" fill="#FFFFFF" />
+    <circle cx="0" cy="0" r="3.5" fill="#0077B6" />
+  </g>
+
+  <!-- Bandra-Worli Sea Link Bridge (Center Background) -->
+  <g id="seaLink">
+    <!-- Pylon Tower -->
+    <polygon points="275,30 282,30 294,140 263,140" fill="#F1F5F9" />
+    <polygon points="278,30 282,30 294,140 286,140" fill="#94A3B8" />
+    <!-- Stay Cables -->
+    <g stroke="#E2E8F0" stroke-width="1.1">
+      <line x1="279" y1="48" x2="215" y2="120" />
+      <line x1="279" y1="58" x2="228" y2="123" />
+      <line x1="279" y1="68" x2="242" y2="126" />
+      <line x1="279" y1="78" x2="255" y2="128" />
+      
+      <line x1="279" y1="48" x2="343" y2="120" />
+      <line x1="279" y1="58" x2="330" y2="123" />
+      <line x1="279" y1="68" x2="316" y2="126" />
+      <line x1="279" y1="78" x2="303" y2="128" />
+    </g>
+    <!-- Bridge Road Deck -->
+    <polygon points="205,116 355,116 355,126 205,126" fill="#475569" />
+    <polygon points="205,116 355,116 350,119 210,119" fill="#94A3B8" />
+    <!-- Mini car -->
+    <rect x="268" y="112" width="10" height="5" rx="1.5" fill="#F43F5E" />
+  </g>
+
+  <!-- Rajabai Clock Tower / Victorian Gothic (Left) -->
+  <g id="heritageTower" transform="translate(170, 78)">
+    <!-- Spire -->
+    <polygon points="10,-42 14,-42 16,-16 8,-16" fill="#FB7185" />
+    <polygon points="12,-42 14,-42 16,-16 12,-16" fill="#BE123C" />
+    <polygon points="6,-16 18,-16 21,18 3,18" fill="#BE185D" />
+    <!-- Clock face -->
+    <circle cx="12" cy="-2" r="5" fill="#FFF1F2" stroke="#9F1239" stroke-width="1.2" />
+    <line x1="12" y1="-2" x2="12" y2="-5" stroke="#9F1239" stroke-width="1" />
+    <line x1="12" y1="-2" x2="14.5" y2="-2" stroke="#9F1239" stroke-width="1" />
+    <!-- Tower Body & Windows -->
+    <rect x="3" y="18" width="18" height="75" fill="#881337" />
+    <rect x="12" y="18" width="9" height="75" fill="#701A31" />
+    <path d="M 6,30 Q 8,24 10,30 L 10,42 L 6,42 Z" fill="#FFE4E6" />
+    <path d="M 6,50 Q 8,44 10,50 L 10,62 L 6,62 Z" fill="#FFE4E6" />
+    <path d="M 6,70 Q 8,64 10,70 L 10,82 L 6,82 Z" fill="#FFE4E6" />
+  </g>
+
+  <!-- Tech Skyscraper (Right) -->
+  <g id="cyberBuilding" transform="translate(340, 92)">
+    <!-- 5G Antenna -->
+    <line x1="18" y1="-30" x2="18" y2="0" stroke="#FFFFFF" stroke-width="2" />
+    <circle cx="18" cy="-30" r="3.5" fill="#00C4D6" />
+    <path d="M 10,-36 A 11 11 0 0 1 26,-36" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-linecap="round" />
+    <path d="M 5,-42 A 16 16 0 0 1 31,-42" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-linecap="round" opacity="0.6" />
+    <!-- Building body -->
+    <polygon points="0,0 18,-10 36,0 36,95 18,105 0,95" fill="#4B5563" />
+    <polygon points="0,0 18,-10 18,105 0,95" fill="url(#cyberTowerGrad)" />
+    <polygon points="18,-10 36,0 36,95 18,105" fill="#581C87" />
+    <!-- Glowing Tech Windows -->
+    <g fill="#A7F3D0" opacity="0.9">
+      <rect x="4" y="12" width="4" height="6" rx="0.5" />
+      <rect x="10" y="8" width="4" height="6" rx="0.5" />
+      <rect x="4" y="26" width="4" height="6" rx="0.5" />
+      <rect x="10" y="22" width="4" height="6" rx="0.5" />
+      <rect x="4" y="40" width="4" height="6" rx="0.5" />
+      <rect x="10" y="36" width="4" height="6" rx="0.5" />
+      <rect x="4" y="54" width="4" height="6" rx="0.5" />
+      <rect x="10" y="50" width="4" height="6" rx="0.5" />
+      <rect x="4" y="68" width="4" height="6" rx="0.5" />
+      <rect x="10" y="64" width="4" height="6" rx="0.5" />
+    </g>
+  </g>
+
+  <!-- Big Isometric "MUMBAI" 3D Block Letters -->
+  <g id="isometricMumbaiLetters">
+    <!-- Letter M (Left) -->
+    <g transform="translate(85, 95)">
+      <polygon points="8,35 32,20 58,35 46,42 34,35 22,42" fill="url(#letterTopGrad)" stroke="#E0E7FF" stroke-width="0.5" />
+      <polygon points="8,35 22,42 22,78 8,70" fill="url(#letterFrontGrad)" />
+      <polygon points="22,42 34,35 34,70 22,78" fill="url(#letterSideGrad)" />
+      <polygon points="34,35 46,42 46,78 34,70" fill="url(#letterFrontGrad)" />
+      <polygon points="46,42 58,35 58,70 46,78" fill="url(#letterSideGrad)" />
+    </g>
+
+    <!-- Letter U -->
+    <g transform="translate(138, 88)">
+      <polygon points="4,30 18,22 32,30 25,34 18,30 11,34" fill="url(#letterTopGrad)" stroke="#E0E7FF" stroke-width="0.5" />
+      <polygon points="4,30 11,34 11,68 4,64" fill="url(#letterFrontGrad)" />
+      <polygon points="11,34 18,30 18,64 11,68" fill="url(#letterSideGrad)" />
+      <polygon points="18,30 25,34 25,68 18,64" fill="url(#letterFrontGrad)" />
+      <polygon points="25,34 32,30 32,64 25,68" fill="url(#letterSideGrad)" />
+    </g>
+
+    <!-- Letter M (Middle) -->
+    <g transform="translate(182, 92)">
+      <polygon points="8,30 32,16 58,30 46,37 34,30 22,37" fill="url(#letterTopGrad)" stroke="#E0E7FF" stroke-width="0.5" />
+      <polygon points="8,30 22,37 22,76 8,68" fill="url(#letterFrontGrad)" />
+      <polygon points="22,37 34,30 34,68 22,76" fill="url(#letterSideGrad)" />
+      <polygon points="34,30 46,37 46,76 34,68" fill="url(#letterFrontGrad)" />
+      <polygon points="46,37 58,30 58,68 46,76" fill="url(#letterSideGrad)" />
+    </g>
+
+    <!-- Letter B -->
+    <g transform="translate(242, 100)">
+      <polygon points="4,26 30,11 40,17 14,32" fill="url(#letterTopGrad)" stroke="#E0E7FF" stroke-width="0.5" />
+      <polygon points="4,26 14,32 14,72 4,65" fill="url(#letterFrontGrad)" />
+      <polygon points="14,32 40,17 40,58 14,72" fill="url(#letterSideGrad)" />
+      <polygon points="18,37 32,29 32,39 18,47" fill="#312E81" />
+      <polygon points="18,52 32,44 32,54 18,62" fill="#312E81" />
+    </g>
+
+    <!-- Letter A -->
+    <g transform="translate(285, 104)">
+      <polygon points="14,14 26,7 38,14 31,18 26,15 20,18" fill="url(#letterTopGrad)" />
+      <polygon points="14,14 20,18 8,66 2,61" fill="url(#letterFrontGrad)" />
+      <polygon points="20,18 26,15 20,48 14,52" fill="url(#letterSideGrad)" />
+      <polygon points="26,15 31,18 38,66 31,70" fill="url(#letterFrontGrad)" />
+      <polygon points="31,18 38,14 44,62 38,66" fill="url(#letterSideGrad)" />
+      <polygon points="16,42 32,32 32,38 16,48" fill="url(#letterTopGrad)" />
+    </g>
+
+    <!-- Letter I -->
+    <g transform="translate(328, 112)">
+      <polygon points="4,13 16,7 24,12 12,18" fill="url(#letterTopGrad)" />
+      <polygon points="4,13 12,18 12,62 4,56" fill="url(#letterFrontGrad)" />
+      <polygon points="12,18 24,12 24,55 12,62" fill="url(#letterSideGrad)" />
+    </g>
+  </g>
+
+  <!-- Isometric Vehicles -->
+  <!-- BEST Red Bus (Middle Right) -->
+  <g transform="translate(315, 150) scale(0.75)">
+    <polygon points="0,14 18,5 45,20 27,29" fill="#F43F5E" />
+    <polygon points="0,14 27,29 27,65 0,50" fill="#E11D48" />
+    <polygon points="27,29 45,20 45,56 27,65" fill="#9F1239" />
+    <polygon points="3,18 24,30 24,38 3,25" fill="#E0F2FE" />
+    <polygon points="29,29 42,21 42,28 29,36" fill="#BAE6FD" />
+    <polygon points="3,31 24,43 24,51 3,38" fill="#E0F2FE" />
+    <polygon points="29,42 42,34 42,41 29,49" fill="#BAE6FD" />
+    <circle cx="5" cy="47" r="2.2" fill="#FEF08A" />
+    <circle cx="22" cy="59" r="2.2" fill="#FEF08A" />
+  </g>
+
+  <!-- Auto Rickshaw / Taxi (Middle Left) -->
+  <g transform="translate(200, 155) scale(0.68)">
+    <polygon points="0,9 14,2 32,12 18,19" fill="#FACC15" />
+    <polygon points="0,9 18,19 18,39 0,29" fill="#1E293B" />
+    <polygon points="18,19 32,12 32,32 18,39" fill="#0F172A" />
+    <polygon points="2,11 16,20 16,27 2,18" fill="#E0F2FE" />
+  </g>
+
+  <!-- Tech Figures -->
+  <g transform="translate(135, 205) scale(0.9)">
+    <circle cx="4" cy="0" r="4" fill="#1E293B" />
+    <path d="M 0,5 L 8,5 L 10,22 L -2,22 Z" fill="#3B82F6" />
+    <rect x="6" y="10" width="5" height="7" rx="1" fill="#00C4D6" />
+    <line x1="1" y1="22" x2="1" y2="35" stroke="#1E293B" stroke-width="2.5" />
+    <line x1="7" y1="22" x2="7" y2="35" stroke="#1E293B" stroke-width="2.5" />
+  </g>
+
+  <g transform="translate(100, 140) scale(0.72)">
+    <circle cx="4" cy="0" r="4" fill="#1E293B" />
+    <path d="M 0,5 L 8,5 L 10,21 L -2,21 Z" fill="#6366F1" />
+    <line x1="1" y1="21" x2="1" y2="33" stroke="#1E293B" stroke-width="2.5" />
+    <line x1="7" y1="21" x2="7" y2="33" stroke="#1E293B" stroke-width="2.5" />
+  </g>
+
+  <!-- Floating Holographic Data Board -->
+  <g transform="translate(295, 58) scale(0.75)">
+    <polygon points="0,14 30,0 60,14 30,27" fill="rgba(255,255,255,0.92)" stroke="#00C4D6" stroke-width="1.3" />
+    <polygon points="0,14 30,27 30,48 0,35" fill="rgba(224, 242, 254, 0.88)" stroke="#00C4D6" stroke-width="1" />
+    <polygon points="30,27 60,14 60,35 30,48" fill="rgba(186, 230, 253, 0.88)" stroke="#00C4D6" stroke-width="1" />
+    <polyline points="4,28 12,22 20,25 26,17" stroke="#0284C7" stroke-width="1.8" fill="none" />
+    <circle cx="12" cy="22" r="1.8" fill="#F43F5E" />
+    <circle cx="26" cy="17" r="1.8" fill="#10B981" />
+  </g>
+</svg>

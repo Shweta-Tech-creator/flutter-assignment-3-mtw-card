@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120" width="100%" height="100%">
+  <defs>
+    <!-- Precise Clip Path for Letter W Letterform -->
+    <clipPath id="wClip">
+      <polygon points="190,24 205,96 219,96 232,46 245,96 259,96 274,24 260,24 251,68 239,24 225,24 213,68 204,24" />
+    </clipPath>
+  </defs>
+
+  <!-- Technical Blueprint Construction Lines -->
+  <g stroke="rgba(255, 255, 255, 0.7)" stroke-width="0.9" fill="none">
+    <!-- Horizontal dashed guide baselines -->
+    <line x1="15" y1="24" x2="345" y2="24" stroke-dasharray="3.5, 3" />
+    <line x1="15" y1="96" x2="345" y2="96" stroke-dasharray="3.5, 3" />
+
+    <!-- Intersecting diagonal technical lines -->
+    <line x1="20" y1="12" x2="335" y2="108" />
+    <line x1="30" y1="108" x2="325" y2="12" />
+
+    <!-- Compass circles and guide arcs -->
+    <circle cx="236" cy="38" r="32" stroke="rgba(255, 255, 255, 0.45)" />
+    <path d="M 52 96 A 55 55 0 0 1 125 18" stroke="rgba(255, 255, 255, 0.5)" />
+    <path d="M 218 18 A 45 45 0 0 1 285 85" stroke="rgba(255, 255, 255, 0.5)" />
+    
+    <!-- Intersection Nodes -->
+    <circle cx="76" cy="90" r="2.5" fill="rgba(255, 255, 255, 0.85)" />
+    <circle cx="272" cy="30" r="2.5" fill="rgba(255, 255, 255, 0.85)" />
+  </g>
+
+  <!-- Monogram: Letter M -->
+  <g id="letterM">
+    <!-- Left Triangle (Bright Cyan) -->
+    <polygon points="62,96 62,24 100,96" fill="#00C5DB" />
+    <!-- Center/Right Body (Deep Navy Blue) -->
+    <polygon points="100,96 134,24 134,96 118,96 118,52 100,96" fill="#00628E" />
+    <!-- Cyan Facet -->
+    <polygon points="62,24 100,96 100,60 81,24" fill="#00B2CA" opacity="0.9" />
+  </g>
+
+  <!-- Monogram: Letter T -->
+  <g id="letterT">
+    <polygon points="138,24 186,24 186,37 169,37 169,96 155,96 155,37 138,37" fill="#00C5DB" />
+  </g>
+
+  <!-- Monogram: Letter W (Explicit Diagonal Vector Stripes) -->
+  <g id="letterW">
+    <!-- Background Base Fill -->
+    <polygon points="190,24 205,96 219,96 232,46 245,96 259,96 274,24 260,24 251,68 239,24 225,24 213,68 204,24" fill="#005882" />
+
+    <!-- Group of parallel diagonal vector stripes clipped to W letterform -->
+    <g clip-path="url(#wClip)" stroke="#00C5DB" stroke-width="2.6">
+      <line x1="170" y1="10" x2="270" y2="110" />
+      <line x1="176" y1="10" x2="276" y2="110" />
+      <line x1="182" y1="10" x2="282" y2="110" />
+      <line x1="188" y1="10" x2="288" y2="110" />
+      <line x1="194" y1="10" x2="294" y2="110" />
+      <line x1="200" y1="10" x2="300" y2="110" />
+      <line x1="206" y1="10" x2="306" y2="110" />
+      <line x1="212" y1="10" x2="312" y2="110" />
+      <line x1="218" y1="10" x2="318" y2="110" />
+      <line x1="224" y1="10" x2="324" y2="110" />
+      <line x1="230" y1="10" x2="330" y2="110" />
+      <line x1="236" y1="10" x2="336" y2="110" />
+      <line x1="242" y1="10" x2="342" y2="110" />
+      <line x1="248" y1="10" x2="348" y2="110" />
+      <line x1="254" y1="10" x2="354" y2="110" />
+      <line x1="260" y1="10" x2="360" y2="110" />
+      <line x1="266" y1="10" x2="366" y2="110" />
+      <line x1="272" y1="10" x2="372" y2="110" />
+    </g>
+
+    <!-- Crisp outer border outline -->
+    <polygon points="190,24 205,96 219,96 232,46 245,96 259,96 274,24 260,24 251,68 239,24 225,24 213,68 204,24" 
+             fill="none" 
+             stroke="#00C5DB" 
+             stroke-width="2.2" 
+             stroke-linejoin="round" />
+  </g>
+</svg>

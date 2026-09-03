@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80" width="100%" height="100%">
+  <!-- Maharashtra Government Emblem in Crisp White -->
+  <g stroke="#FFFFFF" fill="none" transform="translate(80, 20)">
+    <!-- Outer beaded circle -->
+    <circle cx="0" cy="0" r="18" stroke-width="1.3" stroke-dasharray="2.5,1.5" />
+    <circle cx="0" cy="0" r="15.5" stroke-width="1.1" />
+    
+    <!-- Central Lamp / Emblem Base -->
+    <path d="M -8 3.5 C -8 10, 8 10, 8 3.5 Z" fill="#FFFFFF" />
+    <path d="M -5 3.5 L -5 -3 C -5 -6.5, 5 -6.5, 5 -3 L 5 3.5" stroke-width="1.2" fill="#FFFFFF" opacity="0.3" />
+    <circle cx="0" cy="-5.5" r="3.2" fill="#FFFFFF" />
+    
+    <!-- Radiating sun rays -->
+    <line x1="0" y1="-9.5" x2="0" y2="-13.5" stroke-width="1.2" stroke-linecap="round" />
+    <line x1="-6.5" y1="-7.5" x2="-9.5" y2="-10.5" stroke-width="1.2" stroke-linecap="round" />
+    <line x1="6.5" y1="-7.5" x2="9.5" y2="-10.5" stroke-width="1.2" stroke-linecap="round" />
+    <line x1="-9.5" y1="-2" x2="-13.5" y2="-2" stroke-width="1.2" stroke-linecap="round" />
+    <line x1="9.5" y1="-2" x2="13.5" y2="-2" stroke-width="1.2" stroke-linecap="round" />
+
+    <circle cx="0" cy="0" r="12" stroke-width="0.7" stroke-dasharray="1,1.8" />
+  </g>
+
+  <!-- Marathi Text: महाराष्ट्र शासन -->
+  <text x="80" y="52" 
+        text-anchor="middle" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Nirmala UI', 'Segoe UI', 'Noto Sans Devanagari', sans-serif" 
+        font-size="10" 
+        font-weight="800" 
+        letter-spacing="0.6" 
+        fill="#FFFFFF">
+    महाराष्ट्र शासन
+  </text>
+</svg>
